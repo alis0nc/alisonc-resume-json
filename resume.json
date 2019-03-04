@@ -36,7 +36,7 @@
       "position": "Developer III",
       "website": "https://detroitlabs.com/",
       "startDate": "2018-08-13",
-      "summary": "Full stack web developer with JavaScript, Node, and React",
+      "summary": "Full stack web developer with TypeScript, Node, and React",
       "highlights": [
         "Implemented Firebase Cloud Functions to enforce business rules on a public-facing web app",
         "Created an Ansible playbook to set up a Linux continuous integration worker node",
@@ -95,6 +95,7 @@
         "CSS",
         "Sass",
         "JavaScript",
+        "TypeScript",
         "React"
       ]
     },
