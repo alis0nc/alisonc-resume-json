@@ -1,2 +1,2 @@
 # alisonc-resume-json
-Résumé in JSON format
+[Résumé](resume.json) in JSON format
