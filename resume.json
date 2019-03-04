@@ -1,0 +1,145 @@
+{
+
+  "basics": {
+    "name": "Alison Chan",
+    "label": "Full Stack Developer",
+    "picture": "",
+    "email": "alisonc@alisonc.net",
+    "website": "https://alisonc.net/",
+    "summary": "Full stack developer trying to make a difference in the world.",
+    "location": {
+      "city": "Detroit",
+      "countryCode": "US",
+      "region": "Michigan"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "alisonc42",
+        "url": "https://twitter.com/alisonc42"
+      },
+      {
+        "network": "GitHub",
+        "username": "alis0nc",
+        "url": "https://github.com/alis0nc"
+      }, 
+      {
+        "network": "OpenStreetMap",
+        "username": "alisonc42",
+        "url": "https://www.openstreetmap.org/user/alisonc42"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Detroit Labs",
+      "position": "Developer III",
+      "website": "https://detroitlabs.com/",
+      "startDate": "2018-08-13",
+      "summary": "Full stack web developer with JavaScript, Node, and React",
+      "highlights": [
+        "Implemented Firebase Cloud Functions to enforce business rules on a public-facing web app",
+        "Created an Ansible playbook to set up a Linux continuous integration worker node",
+        "Identified and solved pain points in build and deployment processes",
+        "Implemented new front-end features",
+        "Paired with other developers to increase distribution of knowledge and remove blockers",
+        "Maintained the project's Jenkins CI/CD system"
+      ]
+    }, 
+    {
+      "company": "Grubhub",
+      "position": "Driver Partner",
+      "website": "https://grubhub.com/",
+      "startDate": "2017-11-26",
+      "endDate": "2018-08-10",
+      "summary": "Restaurant delivery driver",
+      "highlights": [
+        "Retrieved food orders from restaurants and delivered them to customers in a timely and efficient manner",
+        "Communicated with customers and restaurants to assess pickup and delivery needs and provide information of order status",
+        "Maintained accurate records of mileage driven in each shift"
+      ]
+    },
+    {
+      "company": "X by 2",
+      "position": "Consultant I",
+      "website": "https://xby2.com/",
+      "startDate": "2015-10-05",
+      "endDate": "2017-08-18",
+      "summary": "Software developer consultant in the insurance industry",
+      "highlights": [
+        "Simplified document management integration middleware and improved error handling, resulting in fewer system errors, improved performance, and easier troubleshooting",
+        "Improved performance and user experience within the constraints of a legacy COTS front end application",
+        "Led design review, code review, and data model discussions",
+        "Worked closely with external vendors and other business departments to troubleshoot production errors"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Penguicon",
+    "position": "Head of Logistics",
+    "website": "https://penguicon.org/",
+    "startDate": "2015-12-01",
+    "summary": "Head of Logistics for a 1700-member local open source / DIY / science fiction convention",
+    "highlights": [
+      "Oversaw the annual process of inventorying convention property",
+      "Coordinated the transportation of convention property between the storage location and the convention venue",
+      "Scheduled and directed volunteers during load-in and load-out"
+    ]
+  }],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Proficient",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "JavaScript",
+        "React"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Proficient",
+      "keywords": [
+        "Java",
+        "Python",
+        "Shell scripting"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": [
+        "PostgreSQL",
+        "SQL Server",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "Jenkins",
+        "Travis-CI",
+        "Docker",
+        "Firebase"
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native"
+  }],
+  "interests": [
+    {
+      "name": "Mobility Justice",
+      "keywords": [
+        "Pedestrian safety",
+        "Bicycles",
+        "Buses",
+        "Trains"
+      ]
+    }
+  ]
+}
