@@ -36,7 +36,7 @@
       "position": "Developer",
       "website": "https://detroitlabs.com/",
       "startDate": "2018-08-13",
-      "endDate": "2019-08-12"
+      "endDate": "2019-08-12",
       "summary": "Full stack web developer with TypeScript, Node, and React",
       "highlights": [
         "Implemented Firebase Cloud Functions to enforce business rules on a public-facing web app",
