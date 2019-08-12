@@ -14,11 +14,6 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "alisonc42",
-        "url": "https://twitter.com/alisonc42"
-      },
-      {
         "network": "GitHub",
         "username": "alis0nc",
         "url": "https://github.com/alis0nc"
@@ -42,6 +37,7 @@
         "Implemented Firebase Cloud Functions to enforce business rules on a public-facing web app",
         "Created an Ansible playbook to set up a Linux continuous integration worker node",
         "Improved team productivity by identifying and solving pain points in build and deployment processes",
+        "Maintained database workers written in Python",
         "Implemented new front-end features with React",
         "Paired with other developers to increase distribution of knowledge and remove blockers",
         "Maintained a project's Jenkins CI/CD system"
