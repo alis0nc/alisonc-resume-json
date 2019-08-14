@@ -1,0 +1,15 @@
+language: minimal
+dist: bionic
+before_install:
+- wget -O /tmp/ResumeFodder.tar.gz ${resume_fodder_download}
+- tar xf /tmp/ResumeFodder.tar.gz -C /tmp
+
+script:
+- /tmp/ResumeFodder export resume.json resume.doc /tmp/ResumeFodder/templates/standard.xml
+
+deploy:
+- provider: pages
+  skip_cleanup: true
+  github_token: "${api_key}"
+  on:
+    branch: master
