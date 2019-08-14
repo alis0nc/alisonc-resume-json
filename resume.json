@@ -35,15 +35,15 @@
       "company": "Detroit Labs",
       "position": "Developer",
       "website": "https://detroitlabs.com/",
-      "startDate": "2018-08-13",
-      "endDate": "2019-08-12",
+      "startDate": "2018",
+      "endDate": "2019",
       "summary": "Full stack web developer with TypeScript, Node, and React",
       "highlights": [
         "Implemented Firebase Cloud Functions to enforce voting rules on a public-facing web app (https://littlelibraryprize.org)",
         "Created an Ansible playbook to set up a Linux continuous integration worker node",
         "Improved team productivity by creating a CI task to automatically free up worker disk space",
         "Maintained database workers written in Python",
-        "Implemented new front-end features with React",
+        "Implemented new front-end features with React and Redux, including a multi-level navigation menu",
         "Paired with other developers to onboard them and assist in debugging",
         "Maintained a project's Jenkins CI/CD system"
       ]
@@ -52,8 +52,8 @@
       "company": "X by 2",
       "position": "Consultant I",
       "website": "https://xby2.com/",
-      "startDate": "2015-10-05",
-      "endDate": "2017-08-18",
+      "startDate": "2015",
+      "endDate": "2017",
       "summary": "Software developer consultant in the insurance industry",
       "highlights": [
         "Simplified and improved error handling in Apache Camel-based document integration middleware for an insurance claims system handling 300,000 claims and 2 million documents annually, resulting in fewer system errors, improved performance, and easier troubleshooting",
