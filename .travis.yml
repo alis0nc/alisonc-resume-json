@@ -16,6 +16,16 @@ script:
   -F "wait=true" \
   -F "download=inline" \
   > "resume.pdf"
+- |
+  curl -L "https://api.cloudconvert.com/v1/convert" \
+  -F file=@"resume.doc" \
+  -F 'apikey=$cloudconvert_api_key' \
+  -F "inputformat=doc" \
+  -F "outputformat=docx" \
+  -F "input=upload" \
+  -F "wait=true" \
+  -F "download=inline" \
+  > "resume.docx"
 
 deploy:
 - provider: pages
