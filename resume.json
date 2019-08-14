@@ -17,7 +17,12 @@
         "network": "GitHub",
         "username": "alis0nc",
         "url": "https://github.com/alis0nc"
-      }, 
+      },
+      {
+        "network": "GitLab",
+        "username": "alis0nc",
+        "url": "https://gitlab.com/alis0nc"
+      },
       {
         "network": "OpenStreetMap",
         "username": "alisonc42",
@@ -30,43 +35,30 @@
       "company": "Detroit Labs",
       "position": "Developer",
       "website": "https://detroitlabs.com/",
-      "startDate": "2018-08-13",
-      "endDate": "2019-08-12",
+      "startDate": "2018",
+      "endDate": "2019",
       "summary": "Full stack web developer with TypeScript, Node, and React",
       "highlights": [
-        "Implemented Firebase Cloud Functions to enforce business rules on a public-facing web app",
+        "Enforced voting rules on a public-facing web app (https://littlelibraryprize.org) with Firebase Cloud Functions",
         "Created an Ansible playbook to set up a Linux continuous integration worker node",
-        "Improved team productivity by identifying and solving pain points in build and deployment processes",
+        "Improved team productivity by creating a CI task to automatically free up worker disk space",
         "Maintained database workers written in Python",
-        "Implemented new front-end features with React",
-        "Paired with other developers to increase distribution of knowledge and remove blockers",
+        "Implemented new multi-level navigation menu with React and Redux, which enhanced user navigation on the site",
+        "Paired with other developers to onboard them and assist in debugging",
         "Maintained a project's Jenkins CI/CD system"
-      ]
-    }, 
-    {
-      "company": "Grubhub",
-      "position": "Driver Partner",
-      "website": "https://grubhub.com/",
-      "startDate": "2017-11-26",
-      "endDate": "2018-08-10",
-      "summary": "Restaurant delivery driver",
-      "highlights": [
-        "Retrieved food orders from restaurants and delivered them to customers in a timely and efficient manner",
-        "Communicated with customers and restaurants to assess pickup and delivery needs and provide information of order status",
-        "Maintained accurate records of mileage driven in each shift"
       ]
     },
     {
       "company": "X by 2",
       "position": "Consultant I",
       "website": "https://xby2.com/",
-      "startDate": "2015-10-05",
-      "endDate": "2017-08-18",
+      "startDate": "2015",
+      "endDate": "2017",
       "summary": "Software developer consultant in the insurance industry",
       "highlights": [
-        "Simplified document management integration middleware and improved error handling, resulting in fewer system errors, improved performance, and easier troubleshooting",
+        "Simplified and improved error handling in Apache Camel-based document integration middleware for an insurance claims system handling 300,000 claims and 2 million documents annually, resulting in fewer system errors, improved performance, and easier troubleshooting",
         "Improved performance and user experience within the constraints of a legacy COTS front end application",
-        "Led design review, code review, and data model discussions",
+        "Led story-level design review and code review discussions",
         "Worked closely with external vendors and other business departments to troubleshoot production errors"
       ]
     }
@@ -76,6 +68,7 @@
     "position": "Head of Logistics",
     "website": "https://penguicon.org/",
     "startDate": "2015-12-01",
+    "endDate": "2019-05-10",
     "summary": "Head of Logistics for a 1700-member local open source / DIY / science fiction convention",
     "highlights": [
       "Oversaw the annual process of inventorying convention property",
