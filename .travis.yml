@@ -5,7 +5,7 @@ before_install:
 - tar xf /tmp/ResumeFodder.tar.gz -C /tmp
 
 script:
-- /tmp/ResumeFodder export resume.json resume.doc /tmp/ResumeFodder/templates/standard.xml
+- /tmp/ResumeFodder/ResumeFodder export resume.json resume.doc /tmp/ResumeFodder/templates/standard.xml
 
 deploy:
 - provider: pages
