@@ -43,7 +43,7 @@
         "Created an Ansible playbook to set up a Linux continuous integration worker node",
         "Improved team productivity by creating a CI task to automatically free up worker disk space",
         "Maintained database workers written in Python",
-        "Implemented new front-end features with React and Redux, including a multi-level navigation menu",
+        "Implemented new multi-level navigation menu with React and Redux, which enhanced user navigation on the site",
         "Paired with other developers to onboard them and assist in debugging",
         "Maintained a project's Jenkins CI/CD system"
       ]
