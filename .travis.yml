@@ -32,6 +32,8 @@ script:
   > "resume.docx"
 
 before_deploy:
+  - chmod ugo+x ./move_pr_build.sh
+  - ./move_pr_build.sh
 
 deploy:
   provider: gcs
@@ -40,5 +42,7 @@ deploy:
     secure: rdj4TdM1FdqASVWzbQt47VP3LPic9T2b6ZUQmFxaa/qXosYhw0eLlB/tSGVibzmzrKDuM0bJM17LfuL2TFxDtSQ88AIhlErB/CYx8VWF2vESmEcEQw5HS48QHNPazrtnFi7eVCsFTLN+SoIRbZSCAqE9ENG7mV7gnap8WwnSep7u1bW42re7uWHdRiC6BNwmapdsqwTeVmN3khCGw0xqm2gpON6rQtQ8hb4b8c2FMBJLYM3ituoMidi99wVem06CEmeFG13yperciH4Lb+J/cxF2zTWSzM0c9Ne+2HsfuG6mkjpMpR1erEkt+2vPGs9PFOlldIzsCwVC3N9JUpZvtAcQYrqIcUTtDAV6UrdUfRdAmGEtR7DYMYK6K1qaP+gGrS2uIK+b0VnoJGC1jBgLVSlh5aPVeC7GfG4eEShMuQzsNCjPodu8WdjcPmGqFqxXUUzlgC8ZzfcTyrBMi/gcK2ek52Zgd35Nt8A/X5o+V8Z66z6CnepzBFltwaX4dP0bDr+R0ZqapZdIz7KWXMV++R3oc5HkXHeeLaygG+Hx7BmvuIlqIJtkJl9UrgrgvfGKEz2B9lA51tRTuGbs1gFQBZXuJlI5n+v+IPNmx8t9ZI1IskZJy1H1OChr7Ys9QFg9SzWk5z7ulApOAgxlKth5XisnE7CRyfE8Zmjj7gcGnSA=
   bucket: alisonc-resume.appspot.com
   local-dir: build
+  skip_cleanup: true
+  acl: public-read
   on:
-    repo: alis0nc/alisonc-resume-json
+    all_branches: true
