@@ -63,19 +63,24 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Penguicon",
-    "position": "Head of Logistics",
-    "website": "https://penguicon.org/",
-    "startDate": "2015-12-01",
-    "endDate": "2019-05-10",
-    "summary": "Head of Logistics for a 1700-member local open source / DIY / science fiction convention",
-    "highlights": [
-      "Oversaw the annual process of inventorying convention property",
-      "Coordinated the transportation of convention property between the storage location and the convention venue",
-      "Scheduled and directed volunteers during load-in and load-out"
-    ]
-  }],
+  "additionalWork": [
+    {
+      "company": "What is this week's Torah portion?",
+      "position": "Developer",
+      "website": "https://whatisthisweekstorahportion.com/",
+      "startDate": "2018",
+      "summary": "Microsite which presents information on this week's Torah portion in a minimalist format. Uses the Hebcal API"
+    },
+    {
+      "company": "Penguicon",
+      "position": "Head of Logistics",
+      "website": "https://penguicon.org/",
+      "startDate": "2016",
+      "endDate": "2019",
+      "summary": "Head of Logistics for a 1700-member local open source / DIY / science fiction convention"
+    }
+  ],
+  "additionalWorkLabel": "Projects/Volunteering",
   "skills": [
     {
       "name": "Web Development",
@@ -84,8 +89,6 @@
         "HTML",
         "CSS",
         "Sass",
-        "JavaScript",
-        "TypeScript",
         "React"
       ]
     },
@@ -93,9 +96,11 @@
       "name": "Programming Languages",
       "level": "Proficient",
       "keywords": [
-        "Java",
+        "TypeScript",
+        "JavaScript",
         "Python",
-        "Shell scripting"
+        "Shell scripting",
+        "Java"
       ]
     },
     {
@@ -103,8 +108,8 @@
       "level": "Intermediate",
       "keywords": [
         "PostgreSQL",
-        "SQL Server",
-        "Redis"
+        "Redis",
+        "SQL Server"
       ]
     },
     {
@@ -113,6 +118,7 @@
       "keywords": [
         "Jenkins",
         "Travis-CI",
+        "GitHub Pages",
         "Docker",
         "Firebase"
       ]
