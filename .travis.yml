@@ -26,6 +26,7 @@ script:
   -F "wait=true" \
   -F "download=inline" \
   > "resume.docx"
+- ./upload_pr_build.sh
 
 deploy:
 - provider: pages
