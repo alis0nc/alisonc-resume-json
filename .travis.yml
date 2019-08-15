@@ -1,11 +1,16 @@
 language: minimal
 dist: bionic
+env:
+  global:
+  - resume_fodder_download=https://sourceforge.net/projects/resumefodder/files/ResumeFodder-1.0/Linux-64bit/ResumeFodder-1.0-linux64.tar.gz/download
+  - resume_fodder_template=refined
+
 before_install:
 - wget -O /tmp/ResumeFodder.tar.gz ${resume_fodder_download}
 - tar xf /tmp/ResumeFodder.tar.gz -C /tmp
 
 script:
-- /tmp/ResumeFodder/ResumeFodder export resume.json resume.doc /tmp/ResumeFodder/templates/standard.xml
+- /tmp/ResumeFodder/ResumeFodder export resume.json resume.doc /tmp/ResumeFodder/templates/${resume_fodder_template}.xml
 - |
   curl -f -L "https://api.cloudconvert.com/v1/convert" \
   -F file=@"resume.doc" \
