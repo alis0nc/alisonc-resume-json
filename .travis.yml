@@ -1,5 +1,9 @@
 language: minimal
 dist: bionic
+
+branches:
+  only: master
+
 env:
   global:
   - resume_fodder_download=https://sourceforge.net/projects/resumefodder/files/ResumeFodder-1.0/Linux-64bit/ResumeFodder-1.0-linux64.tar.gz/download
