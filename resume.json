@@ -6,7 +6,7 @@
     "picture": "",
     "email": "alisonc@alisonc.net",
     "website": "https://alisonc.net/",
-    "summary": "Full stack developer trying to make a difference in the world.",
+    "summary": "I'm a mid-level full stack developer who enjoys making shiny, performant, well-tested web apps and the CI/CD workflows that build & deploy them.",
     "location": {
       "city": "Detroit",
       "countryCode": "US",
@@ -44,13 +44,14 @@
       "endDate": "2019",
       "summary": "Full stack web developer with TypeScript, Node, and React",
       "highlights": [
+        "Implemented new multi-level navigation menu with React and Redux, which enhanced user navigation on the site",
+        "Paired with other developers to onboard them and assist in debugging",
+        "Implemented health check endpoints and improved caching infrastructure in a Node and hapi.js based middleware",
         "Enforced voting rules on a public-facing web app (https://littlelibraryprize.org) with Firebase Cloud Functions",
         "Created an Ansible playbook to set up a Linux continuous integration worker node",
         "Improved team productivity by creating a CI task to automatically free up worker disk space",
-        "Maintained database workers written in Python",
-        "Implemented new multi-level navigation menu with React and Redux, which enhanced user navigation on the site",
-        "Paired with other developers to onboard them and assist in debugging",
-        "Maintained a project's Jenkins CI/CD system"
+        "Maintained a project's Jenkins CI/CD system",
+        "Maintained database workers written in Python"
       ]
     },
     {
@@ -74,7 +75,7 @@
       "position": "Developer",
       "website": "https://whatisthisweekstorahportion.com/",
       "startDate": "2018",
-      "summary": "Microsite which presents information on this week's Torah portion in a minimalist format. Uses the Hebcal API"
+      "summary": "(https://github.com/alis0nc/whatisthisweekstorahportion) Microsite which presents information on this week's Torah portion in a minimalist format. Uses the Hebcal API"
     },
     {
       "company": "Penguicon",
@@ -95,6 +96,7 @@
         "CSS",
         "Sass",
         "React",
+        "Redux",
         "Jekyll"
       ]
     },
