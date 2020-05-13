@@ -37,6 +37,21 @@
   },
   "work": [
     {
+      "company": "Thinkful",
+      "position": "Software Engineer",
+      "website": "https://thinkful.com/",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Full stack web developer with React, Flask, and SQLAlchemy",
+      "highlights": [
+        "Implemented reusable UI components with React according to accessibility standards",
+        "Worked closely with stakeholders to iterate on front end design and behavior",
+        "Collaborated with infrastructure pod on improvements to local development workflow",
+        "Released features behind feature flags in a continuous delivery environment",
+        "Implemented repeatable database migrations with Alembic to improve deployment process"
+      ]
+    },
+    {
       "company": "Detroit Labs",
       "position": "Developer",
       "website": "https://detroitlabs.com/",
@@ -46,11 +61,10 @@
       "highlights": [
         "Implemented new multi-level navigation menu with React and Redux, which enhanced user navigation on the site",
         "Paired with other developers to onboard them and assist in debugging",
-        "Implemented health check endpoints and improved caching infrastructure in a Node and hapi.js based middleware",
+        "Implemented smoke tests and improved caching in a Node and hapi.js based middleware",
         "Enforced voting rules on a public-facing web app (https://littlelibraryprize.org) with Firebase Cloud Functions",
-        "Created an Ansible playbook to set up a Linux continuous integration worker node",
+        "Created an Ansible playbook to provision a Linux continuous integration worker",
         "Improved team productivity by creating a CI task to automatically free up worker disk space",
-        "Maintained a project's Jenkins CI/CD system",
         "Maintained database workers written in Python"
       ]
     },
@@ -64,7 +78,7 @@
       "highlights": [
         "Simplified and improved error handling in Apache Camel-based document integration middleware for an insurance claims system handling 300,000 claims and 2 million documents annually, resulting in fewer system errors, improved performance, and easier troubleshooting",
         "Improved performance and user experience within the constraints of a legacy COTS front end application",
-        "Led story-level design review and code review discussions",
+        "Led feature-level design review and code review discussions",
         "Worked closely with external vendors and other business departments to troubleshoot production errors"
       ]
     }
@@ -116,15 +130,17 @@
       "name": "Databases",
       "level": "Intermediate",
       "keywords": [
+        "SQLAlchemy",
         "PostgreSQL",
         "Redis",
         "SQL Server"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Infrastructure",
       "level": "Intermediate",
       "keywords": [
+        "Alembic",
         "Jenkins",
         "Travis-CI",
         "GitHub Pages",
