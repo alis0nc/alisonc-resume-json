@@ -1,0 +1,44 @@
+language: minimal
+dist: bionic
+
+branches:
+  only: master
+
+env:
+  global:
+  - resume_fodder_download=https://sourceforge.net/projects/resumefodder/files/ResumeFodder-1.0/Linux-64bit/ResumeFodder-1.0-linux64.tar.gz/download
+
+before_install:
+- wget -O /tmp/ResumeFodder.tar.gz ${resume_fodder_download}
+- tar xf /tmp/ResumeFodder.tar.gz -C /tmp
+
+script:
+- /tmp/ResumeFodder/ResumeFodder export resume.json resume.doc refined.xml
+- |
+  curl -f -L "https://api.cloudconvert.com/v1/convert" \
+  -F file=@"resume.doc" \
+  -F "apikey=$cloudconvert_api_key" \
+  -F "inputformat=doc" \
+  -F "outputformat=pdf" \
+  -F "input=upload" \
+  -F "wait=true" \
+  -F "download=inline" \
+  > "resume.pdf"
+- |
+  curl -f -L "https://api.cloudconvert.com/v1/convert" \
+  -F file=@"resume.doc" \
+  -F "apikey=$cloudconvert_api_key" \
+  -F "inputformat=doc" \
+  -F "outputformat=docx" \
+  -F "input=upload" \
+  -F "wait=true" \
+  -F "download=inline" \
+  > "resume.docx"
+- ./upload_pr_build.sh
+
+deploy:
+- provider: pages
+  skip_cleanup: true
+  github_token: "${api_key}"
+  on:
+    branch: master

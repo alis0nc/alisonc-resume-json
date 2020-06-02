@@ -1,0 +1,170 @@
+{
+
+  "basics": {
+    "name": "Alison Chan",
+    "label": "Full Stack Developer",
+    "picture": "",
+    "email": "alisonc@alisonc.net",
+    "website": "https://alisonc.net/",
+    "summary": "I'm a full stack developer who enjoys building shiny, performant, well-tested web apps and the teams and processes around them.",
+    "location": {
+      "city": "Detroit",
+      "countryCode": "US",
+      "region": "Michigan"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "alis0nc",
+        "url": "https://github.com/alis0nc"
+      },
+      {
+        "network": "GitLab",
+        "username": "alis0nc",
+        "url": "https://gitlab.com/alis0nc"
+      },
+      {
+        "network": "OpenStreetMap",
+        "username": "alisonc42",
+        "url": "https://www.openstreetmap.org/user/alisonc42"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "/in/alisonc42",
+        "url": "https://www.linkedin.com/in/alisonc42"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Thinkful (Chegg Learning Services)",
+      "position": "Software Engineer",
+      "website": "https://thinkful.com/",
+      "startDate": "October 2019",
+      "endDate": "March 2020",
+      "summary": "Full stack web developer on an e-learning platform used by hundreds of educators and thousands of students (React, Flask, SQLAlchemy, PostgreSQL)",
+      "highlights": [
+        "Increased educators' visibility of student progress by implementing new dashboard design",
+        "Implemented reusable UI components with React according to accessibility standards",
+        "Implemented and released live help widget PoC as part of an UX experiment aimed at improving student outcomes",
+        "Worked closely with stakeholders to iterate on front end design and behavior",
+        "Collaborated with infrastructure pod on local development environment improvements",
+        "Released features behind feature flags in a continuous delivery environment",
+        "Implemented repeatable database migrations with Alembic to improve deployment process"
+      ]
+    },
+    {
+      "company": "Detroit Labs",
+      "position": "Software Developer",
+      "website": "https://detroitlabs.com/",
+      "startDate": "August 2018",
+      "endDate": "August 2019",
+      "summary": "Full stack web developer on a metrics dashboard for a chain of hundreds of refrigerated warehouses across the US (TypeScript, Node, React, PostgreSQL, Redis)",
+      "highlights": [
+        "Enhanced navigation between facilities by implementing new multi-level nav menu sorting facilities into regions",
+        "Paired with other developers to onboard them and assist in debugging",
+        "Implemented smoke tests and improved caching in a Node and hapi.js based middleware",
+        "Improved team productivity by creating a CI task to automatically free up worker disk space",
+        "Maintained database workers written in Python",
+        "Enforced voting rules on a public-facing web app (https://littlelibraryprize.org) with Firebase Cloud Functions",
+        "Created an Ansible playbook to provision a Linux continuous integration worker",
+        "Member of the Diversity & Inclusion and Interview Standardization Workgroups"
+      ]
+    },
+    {
+      "company": "X by 2",
+      "position": "Consultant I",
+      "website": "https://xby2.com/",
+      "startDate": "October 2015",
+      "endDate": "August 2017",
+      "summary": "Software developer consultant in the insurance industry (Guidewire ClaimCenter, Java, Apache Camel)",
+      "highlights": [
+        "Simplified and improved error handling in Apache Camel-based document integration middleware for an insurance claims system handling 300,000 claims and 2 million documents annually, resulting in fewer system errors, improved performance, and easier troubleshooting",
+        "Improved performance and user experience within the constraints of a legacy COTS front end application",
+        "Led feature-level design review and code review discussions",
+        "Worked closely with external vendors and other business departments to troubleshoot production errors"
+      ]
+    }
+  ],
+  "additionalWork": [
+    {
+      "company": "What is this week's Torah portion?",
+      "position": "Developer",
+      "website": "https://whatisthisweekstorahportion.com/",
+      "startDate": "2018",
+      "summary": "(https://github.com/alis0nc/whatisthisweekstorahportion) Microsite which presents information on this week's Torah portion in a minimalist format. Uses the Hebcal API"
+    },
+    {
+      "company": "Penguicon",
+      "position": "Head of Logistics",
+      "website": "https://penguicon.org/",
+      "startDate": "2016",
+      "endDate": "2019",
+      "summary": "Head of Logistics for a 1700-member local open source / DIY / science fiction convention"
+    }
+  ],
+  "additionalWorkLabel": "Projects/Volunteering",
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Proficient",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Styled Components",
+        "React",
+        "Redux",
+        "Jekyll"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Proficient",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Shell scripting",
+        "Java"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Intermediate",
+      "keywords": [
+        "SQLAlchemy",
+        "PostgreSQL",
+        "Redis",
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "Intermediate",
+      "keywords": [
+        "Alembic",
+        "Jenkins",
+        "Travis-CI",
+        "GitHub Pages",
+        "Docker",
+        "Firebase"
+      ]
+    }
+  ],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native"
+  }],
+  "interests": [
+    {
+      "name": "Mobility Justice",
+      "keywords": [
+        "Pedestrian safety",
+        "Bicycles",
+        "Buses",
+        "Trains"
+      ]
+    }
+  ]
+}
